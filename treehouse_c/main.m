@@ -13,8 +13,11 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // Create a float variable named 'radius' with the value '14.5'.
+        float radius = 14.5;
+        // Create print statement to print the radius variable. A ball with a radius of 14.5 inches.
+        printf("A ball with a radius of %f inches.\n", radius);
+       
         
     }
     return 0;
